@@ -1,0 +1,35 @@
+
+name: favorites
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.5.3
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/amsterdam.jpeg
+    - assets/images/capetown.jpeg
+    - assets/images/copenhagen.jpeg
+    - assets/images/lisbon.jpeg
+    - assets/images/london.jpeg
+    - assets/images/losangeles.jpeg
+    - assets/images/monaco.jpeg
+    - assets/images/reykjavik.jpeg
+    - assets/images/warsaw.jpeg
